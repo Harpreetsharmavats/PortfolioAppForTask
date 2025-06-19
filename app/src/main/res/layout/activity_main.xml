@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Harpreet Sharma"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="10dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="I am a passionate Android developer with hands-on experience in building intuitive and scalable mobile applications using Kotlin, Firebase, and Jetpack Compose. With a strong foundation in REST APIs, real-time databases, and modern UI/UX design, I have developed and deployed multiple projects, including a food delivery app, event-sharing platform, and real-time chat application."
+            android:layout_marginBottom="10dp"/>
+
+        <Button
+            android:id="@+id/btnAddSkill"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Skill" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rvSkills"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp" />
+
+        <Button
+            android:id="@+id/btnAddProject"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Project" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rvProjects"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp" />
+
+        <Button
+            android:id="@+id/btnAddCertification"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Certification" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rvCertifications"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</ScrollView>

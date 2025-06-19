@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "992043875940",
+    "project_id": "portfolioapp-59361",
+    "storage_bucket": "portfolioapp-59361.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:992043875940:android:2e52283f86d216fdb12971",
+        "android_client_info": {
+          "package_name": "com.example.portfolioappfortask"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB7mEkMLspxwsHiH7Uk6187lgkduAj8Df0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
